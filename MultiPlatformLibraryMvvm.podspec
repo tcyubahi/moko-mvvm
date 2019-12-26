@@ -8,6 +8,7 @@ Pod::Spec.new do |spec|
     spec.summary                  = 'Swift additions to moko-mvvm Kotlin/Native library'
     spec.module_name              = "#{spec.name}"
     
+    spec.static_framework = true
     spec.dependency 'MultiPlatformLibrary'
 
     spec.ios.deployment_target  = '9.0'
